@@ -11,3 +11,11 @@
 string[] str = { "hello", "2", "world", ":-)" };
 var result = new string[str.Length];
 var realSize = 0;
+foreach (var elem in str)
+{
+    if (elem.Length <= 3)
+    {
+        result[realSize] = elem;
+        realSize++;
+    }
+}
