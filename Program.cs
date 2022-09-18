@@ -19,3 +19,6 @@ foreach (var elem in str)
         realSize++;
     }
 }
+PrintArray(str);
+Console.WriteLine($" -> [{string.Join(Environment.NewLine, result, 0, realSize)}]");
+Console.ReadKey();
