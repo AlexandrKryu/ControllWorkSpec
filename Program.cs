@@ -8,3 +8,6 @@
     }
     Console.Write("]");
 }
+string[] str = { "hello", "2", "world", ":-)" };
+var result = new string[str.Length];
+var realSize = 0;
